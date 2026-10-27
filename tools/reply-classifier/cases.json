@@ -1,0 +1,666 @@
+[
+  {
+    "id": "bounce-001",
+    "subject": "",
+    "text": "Delivery has failed",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "bounce-002",
+    "subject": "",
+    "text": "Undeliverable message",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "bounce-003",
+    "subject": "",
+    "text": "The recipient address was rejected",
+    "headers": {},
+    "expected": "bounce",
+    "xfail": "Baseline failure: expected bounce, got other"
+  },
+  {
+    "id": "bounce-004",
+    "subject": "",
+    "text": "Your message could not be delivered",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "bounce-005",
+    "subject": "",
+    "text": "Mail delivery subsystem: failure",
+    "headers": {},
+    "expected": "bounce",
+    "xfail": "Baseline failure: expected bounce, got other"
+  },
+  {
+    "id": "bounce-006",
+    "subject": "",
+    "text": "This mailbox does not exist",
+    "headers": {},
+    "expected": "bounce",
+    "xfail": "Baseline failure: expected bounce, got other"
+  },
+  {
+    "id": "bounce-007",
+    "subject": "",
+    "text": "Delivery status notification: failure",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "bounce-008",
+    "subject": "",
+    "text": "The email address was not found",
+    "headers": {},
+    "expected": "bounce",
+    "xfail": "Baseline failure: expected bounce, got other"
+  },
+  {
+    "id": "bounce-009",
+    "subject": "",
+    "text": "E-pos aflewering het misluk",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "bounce-010",
+    "subject": "",
+    "text": "Die boodskap kon nie afgelewer word nie",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "bounce-011",
+    "subject": "",
+    "text": "Die e-posadres bestaan nie",
+    "headers": {},
+    "expected": "bounce",
+    "xfail": "Baseline failure: expected bounce, got other"
+  },
+  {
+    "id": "bounce-012",
+    "subject": "",
+    "text": "Aflewering is onsuksesvol",
+    "headers": {},
+    "expected": "bounce",
+    "xfail": "Baseline failure: expected bounce, got other"
+  },
+  {
+    "id": "ooo-001",
+    "subject": "",
+    "text": "I am out of office until Monday",
+    "headers": {},
+    "expected": "ooo"
+  },
+  {
+    "id": "ooo-002",
+    "subject": "",
+    "text": "I am away from my desk",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-003",
+    "subject": "",
+    "text": "Automatic reply: annual leave",
+    "headers": {},
+    "expected": "ooo"
+  },
+  {
+    "id": "ooo-004",
+    "subject": "",
+    "text": "I will respond when I return",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-005",
+    "subject": "",
+    "text": "Currently on vacation",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-006",
+    "subject": "",
+    "text": "I am unavailable today",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-007",
+    "subject": "",
+    "text": "Out of the office this week",
+    "headers": {},
+    "expected": "ooo"
+  },
+  {
+    "id": "ooo-008",
+    "subject": "",
+    "text": "I will reply after my leave",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-009",
+    "subject": "",
+    "text": "Ek is tans met verlof",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-010",
+    "subject": "",
+    "text": "Ek is nie vandag beskikbaar nie",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-011",
+    "subject": "",
+    "text": "Ek sal antwoord wanneer ek terug is",
+    "headers": {},
+    "expected": "ooo",
+    "xfail": "Baseline failure: expected ooo, got other"
+  },
+  {
+    "id": "ooo-012",
+    "subject": "",
+    "text": "I am away",
+    "headers": {
+      "auto-submitted": "auto-replied"
+    },
+    "expected": "ooo"
+  },
+  {
+    "id": "optout-001",
+    "subject": "",
+    "text": "No thanks, unsubscribe me",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-002",
+    "subject": "",
+    "text": "Please remove me from your list",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-003",
+    "subject": "",
+    "text": "Stop emailing me",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-004",
+    "subject": "",
+    "text": "We are not interested",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-005",
+    "subject": "",
+    "text": "Do not contact us again",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-006",
+    "subject": "",
+    "text": "Not for us, thank you",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-007",
+    "subject": "",
+    "text": "Nee dankie",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-008",
+    "subject": "",
+    "text": "Verwyder my asseblief van die lys",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-009",
+    "subject": "",
+    "text": "Ons stel nie belang nie",
+    "headers": {},
+    "expected": "optout",
+    "xfail": "Baseline failure: expected optout, got other"
+  },
+  {
+    "id": "optout-010",
+    "subject": "",
+    "text": "Moet asseblief nie weer e-pos stuur nie",
+    "headers": {},
+    "expected": "optout",
+    "xfail": "Baseline failure: expected optout, got other"
+  },
+  {
+    "id": "optout-011",
+    "subject": "",
+    "text": "Please take us off your mailing list",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "optout-012",
+    "subject": "",
+    "text": "I do not want further emails",
+    "headers": {},
+    "expected": "optout",
+    "xfail": "Baseline failure: expected optout, got other"
+  },
+  {
+    "id": "price-001",
+    "subject": "",
+    "text": "Please send your pricing",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-002",
+    "subject": "",
+    "text": "What does the service cost?",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-003",
+    "subject": "",
+    "text": "Could you share your rates?",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-004",
+    "subject": "",
+    "text": "Please provide a quote",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-005",
+    "subject": "",
+    "text": "Can you send a price list?",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-006",
+    "subject": "",
+    "text": "We would like a cost estimate",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-007",
+    "subject": "",
+    "text": "Wat kos die diens?",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-008",
+    "subject": "",
+    "text": "Stuur asseblief julle pryse",
+    "headers": {},
+    "expected": "price",
+    "xfail": "Baseline failure: expected price, got other"
+  },
+  {
+    "id": "price-009",
+    "subject": "",
+    "text": "Kan ek 'n kwotasie kry?",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-010",
+    "subject": "",
+    "text": "Wat is julle tariewe?",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-011",
+    "subject": "",
+    "text": "Please send details of your fees",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "price-012",
+    "subject": "",
+    "text": "We need an estimate of the price",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "interested-001",
+    "subject": "",
+    "text": "I am interested",
+    "headers": {},
+    "expected": "interested"
+  },
+  {
+    "id": "interested-002",
+    "subject": "",
+    "text": "Please tell me more",
+    "headers": {},
+    "expected": "interested"
+  },
+  {
+    "id": "interested-003",
+    "subject": "",
+    "text": "Can we arrange a meeting?",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "interested-004",
+    "subject": "",
+    "text": "I would like to discuss this",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "interested-005",
+    "subject": "",
+    "text": "This sounds useful",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "interested-006",
+    "subject": "",
+    "text": "Please contact me about next steps",
+    "headers": {},
+    "expected": "interested"
+  },
+  {
+    "id": "interested-007",
+    "subject": "",
+    "text": "Ek stel belang",
+    "headers": {},
+    "expected": "interested"
+  },
+  {
+    "id": "interested-008",
+    "subject": "",
+    "text": "Vertel my asseblief meer",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "interested-009",
+    "subject": "",
+    "text": "Kan ons 'n afspraak maak?",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "interested-010",
+    "subject": "",
+    "text": "Dit klink interessant",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "interested-011",
+    "subject": "",
+    "text": "I would like more information",
+    "headers": {},
+    "expected": "interested"
+  },
+  {
+    "id": "interested-012",
+    "subject": "",
+    "text": "Let's discuss this further",
+    "headers": {},
+    "expected": "interested",
+    "xfail": "Baseline failure: expected interested, got other"
+  },
+  {
+    "id": "forwarded-001",
+    "subject": "",
+    "text": "I will forward this email",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-002",
+    "subject": "",
+    "text": "Please contact our manager",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-003",
+    "subject": "",
+    "text": "I have forwarded your message",
+    "headers": {},
+    "expected": "forwarded",
+    "xfail": "Baseline failure: expected forwarded, got other"
+  },
+  {
+    "id": "forwarded-004",
+    "subject": "",
+    "text": "I will pass this on",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-005",
+    "subject": "",
+    "text": "Forwarding this to the owner",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-006",
+    "subject": "",
+    "text": "Please speak to our practice manager",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-007",
+    "subject": "",
+    "text": "Ek stuur die e-pos aan",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-008",
+    "subject": "",
+    "text": "Ek het jou boodskap aangestuur",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-009",
+    "subject": "",
+    "text": "Ek sal dit aanstuur",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-010",
+    "subject": "",
+    "text": "Kontak asseblief die bestuurder",
+    "headers": {},
+    "expected": "forwarded",
+    "xfail": "Baseline failure: expected forwarded, got other"
+  },
+  {
+    "id": "forwarded-011",
+    "subject": "",
+    "text": "I will ask the owner to contact you",
+    "headers": {},
+    "expected": "forwarded"
+  },
+  {
+    "id": "forwarded-012",
+    "subject": "",
+    "text": "Please pass this to the relevant person",
+    "headers": {},
+    "expected": "forwarded",
+    "xfail": "Baseline failure: expected forwarded, got other"
+  },
+  {
+    "id": "other-001",
+    "subject": "",
+    "text": "Hello there",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-002",
+    "subject": "",
+    "text": "Thank you for your message",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-003",
+    "subject": "",
+    "text": "Have a nice day",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-004",
+    "subject": "",
+    "text": "I received your email",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-005",
+    "subject": "",
+    "text": "We will consider it",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-006",
+    "subject": "",
+    "text": "Please see my note below",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-007",
+    "subject": "",
+    "text": "Goeie dag",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-008",
+    "subject": "",
+    "text": "Dankie vir jou e-pos",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-009",
+    "subject": "",
+    "text": "Ek het jou boodskap ontvang",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-010",
+    "subject": "",
+    "text": "Lekker dag verder",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-011",
+    "subject": "",
+    "text": "We are reviewing the information",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "other-012",
+    "subject": "",
+    "text": "Thanks for getting in touch",
+    "headers": {},
+    "expected": "other"
+  },
+  {
+    "id": "tricky-001",
+    "subject": "Automatic reply",
+    "text": "I am away until Monday",
+    "headers": {
+      "auto-submitted": "auto-replied"
+    },
+    "expected": "ooo"
+  },
+  {
+    "id": "tricky-002",
+    "subject": "",
+    "text": "Please stop contacting us",
+    "headers": {
+      "x-autoreply": "yes"
+    },
+    "expected": "ooo"
+  },
+  {
+    "id": "tricky-003",
+    "subject": "",
+    "text": "Your message could not be delivered",
+    "headers": {},
+    "expected": "bounce"
+  },
+  {
+    "id": "tricky-004",
+    "subject": "",
+    "text": "Not interested in receiving a quote",
+    "headers": {},
+    "expected": "optout"
+  },
+  {
+    "id": "tricky-005",
+    "subject": "",
+    "text": "We are interested; please send your pricing",
+    "headers": {},
+    "expected": "price"
+  },
+  {
+    "id": "tricky-006",
+    "subject": "",
+    "text": "I will forward this to the manager",
+    "headers": {},
+    "expected": "forwarded"
+  }
+]
